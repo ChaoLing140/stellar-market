@@ -491,7 +491,7 @@ impl ReputationContract {
             reviewee: reviewee.clone(),
             job_id,
             rating,
-            comment,
+            comment: comment.clone(),
             stake_weight,
             timestamp: env.ledger().timestamp(),
         };

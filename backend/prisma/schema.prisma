@@ -465,6 +465,8 @@ model PortfolioItem {
 
   @@index([userId])
   @@index([userId, displayOrder])
+}
+
 model Webhook {
   id        String   @id @default(cuid())
   userId    String
